@@ -107,12 +107,10 @@ h1 {
     text-decoration: underline;
 }
 
-
 .main-tittle {
     text-align: center;
     margin-top: 5%;
     color: white;
-
 }
 
 .main-tittle h1 {
@@ -125,7 +123,7 @@ h1 {
 
 
 
-/* 
+/* /* 
 .search {
     margin-top: 2%;
     text-align: center;
@@ -136,7 +134,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     margin-top: 10px; */
-} 
+}  */ */
 
 .search-container {
     display: flex;
@@ -321,11 +319,13 @@ h1 {
     color: white;
     padding: 10px 0;
     margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer-menu {
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
     align-items: center;
     padding: 10px 30px;
@@ -342,28 +342,14 @@ h1 {
     text-decoration: underline;
 }
 
-.footer p {
-    margin: 5px 0;
-}
-
-.footer .main-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .contact {
     display: flex;
+    flex-direction: column;
     align-items: center;
     margin-right: 5%;
 }
 
-.mail,
-.social-media {
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-}
 
 .mail h2 {
     font-size: 20px;
@@ -390,6 +376,7 @@ h1 {
     background-color: #5BC4CB;
     transform: scale(1.05);
 }
+
 
 .social-media a {
     margin: 5px;
