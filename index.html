@@ -6,16 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
-    <title>Task 1</title>
+    <link rel="preload" href="img/adopt2.jpeg" as="image">
+    <link rel="preload" href="img/sponsor2.jpeg" as="image">
+    <link rel="preload" href="img/contribution2.jpeg" as="image">
+    <title>Genesis</title>
 </head>
 
 <body>
     <div class="container">
         <header class="header">
-            <div class="header-container">
+            <div class="header-container" >
                 <div class="header-up">
                     <div class="logo">
-                        <img src="" alt="Logo" href="#">
+                        <img src="img/logo2.png" alt="Logo" href="#" >
                     </div>
                     <div class="header-menu">
                         <a href="#">Home</a>
@@ -26,7 +29,9 @@
                         <a href="#">Contact Us</a>
                     </div>
                     <div class="profile">
-                        <img src="/" alt="Profile picture">
+                        <a href="#">
+                            <ion-icon name="person" size="large"></ion-icon>
+                        </a>
                         <button>Sign Up</button>
                     </div>
                 </div>
@@ -41,8 +46,6 @@
                             <select class="search-select" name="" id="">
                                 <option value="Female cats">Female cats</option>
                                 <option value="Male cats">Male cats</option>
-                                <option value="Female dogs">Female Dogs</option>
-                                <option value="Male dogs">Male Dogs</option>
                             </select>
                             <input class="search-input" type="text" placeholder="Write the name of the pet">
                             <button class="search-button" type="submit">Search Now</button>
@@ -55,20 +58,35 @@
             <div class="main-container">
                 <div class="about">
                     <div class="about-title">
-                        <h1>We encourage you to:</h1>
+                        <h1>We encourage you to</h1>
                     </div>
                     <div class="about-options">
                         <div class="adopt">
-                            <img src="/" alt="">
-                            <h3>Adopt</h3>
+                            <div class="option-image">
+                                <div class="image-wrapper">
+                                    <img class="original-image" src="img/adopt.jpg" alt="Adopt image">
+                                    <img class="hover-image" src="img/adopt2.jpeg" alt="Adopt image">
+                                </div>
+                            </div>
+                            <a href="#">Adopt</a>
                         </div>
                         <div class="sponsor">
-                            <img src="/" alt="">
-                            <h3>Sponsor a Pet</h3>
+                            <div class="option-image">
+                                <div class="image-wrapper">
+                                    <img class="original-image" src="img/sponsor.JPG" alt="Sponsor image">
+                                    <img class="hover-image" src="img/sponsor2.jpeg" alt="Sponsor image">
+                                </div>
+                            </div>
+                            <a href="#">Sponsor a Pet</a>
                         </div>
                         <div class="contribution">
-                            <img src="/" alt="">
-                            <h3>Make a contribution</h3>
+                            <div class="option-image">
+                                <div class="image-wrapper">
+                                    <img class="original-image" src="img/contribution.jpeg" alt="Contribution image">
+                                    <img class="hover-image" src="img/contribution2.jpeg" alt="Contribution image">
+                                </div>
+                            </div>
+                            <a href="#">Make a contribution</a>
                         </div>
                     </div>
                 </div>
@@ -77,11 +95,11 @@
         <footer class="footer">
             <div class="main-container">
                 <div class="footer-menu">
-                    <p>Home</p>
-                    <p>About Us</p>
-                    <p>Adoptions</p>
-                    <p>News</p>
-                    <p>Events</p>
+                    <a href="#">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Adoptions</a>
+                    <a href="#">News</a>
+                    <a href="#">Events</a>
                 </div>
                 <div class="contact">
                     <div class="mail">
@@ -90,16 +108,16 @@
                         <input type="email" placeholder="Your email">
                         <button type="submit">Send</button>
                     </div>
-                    <div class="social-media">
-                        <a href="#" target="blank">
-                            <ion-icon name="logo-instagram" size="large"></ion-icon></a>
-                        <a href="#" target="blank">
-                            <ion-icon name="logo-facebook" size="large"></ion-icon></a>
-                        <a href="#" target="blank">
-                            <ion-icon name="logo-tiktok" size="large"></ion-icon></a>
-                        <a href="#" target="blank">
-                            <ion-icon name="logo-youtube" size="large"></ion-icon></a>
-                    </div>
+                <div class="social-media">
+                    <a href="#" target="blank">
+                        <ion-icon name="logo-instagram" size="large"></ion-icon></a>
+                    <a href="#" target="blank">
+                        <ion-icon name="logo-facebook" size="large"></ion-icon></a>
+                    <a href="#" target="blank">
+                        <ion-icon name="logo-tiktok" size="large"></ion-icon></a>
+                    <a href="#" target="blank">
+                        <ion-icon name="logo-youtube" size="large"></ion-icon></a>
+                </div>
                 </div>
             </div>
         </footer>
